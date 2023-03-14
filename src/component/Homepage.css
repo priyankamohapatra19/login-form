@@ -1,0 +1,75 @@
+.home-container {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(157, 210, 235),
+    rgb(67, 59, 180)
+  );
+  height: 100vh;
+}
+
+.curr-user {
+  font-family: cursive;
+  font-size: 32px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.log-out-btn {
+  position: relative;
+  left: 48%;
+  margin-top: 4%;
+}
+.form-container {
+  position: relative;
+  left: 38%;
+  height: 300px;
+  border: 1px solid black;
+  width: 24%;
+  padding: 12px;
+  margin-top: 10%;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  align-items: center;
+}
+.user-detail {
+  display: flex;
+  align-items: center;
+  margin: 2px 12px;
+  padding: 6px 2px;
+  margin-top: 10%;
+}
+
+.user {
+  width: 82px;
+  font-weight: bold;
+}
+
+input {
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+  border: none;
+  padding: 8px 6px;
+  width: 220px;
+  font-size: 16px;
+}
+.btn-container {
+  position: relative;
+  bottom: 8%;
+  left: 42%;
+  display: flex;
+}
+.btn-edit-container {
+  position: relative;
+  bottom: 6%;
+  left: 44%;
+  display: flex;
+}
+
+button {
+  padding: 8px 32px;
+  margin: 2px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
